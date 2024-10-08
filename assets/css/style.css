@@ -142,20 +142,6 @@ header {
 
 }
 
-/* .productos-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.producto-card {
-    background-color: white;
-    margin: 10px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    width: 300px;
-    text-align: center;
-} */
 
 .reseñas-grid {
     display: grid;
@@ -168,30 +154,40 @@ header {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+    white-space: nowrap; /*Una sola línea */
+    overflow: hidden; /* Oculta el desbordamiento */
+    text-overflow: ellipsis; /* Muestra "..." */
 }
+
+
+
 
 form {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 25%;
     margin: 0 auto;
 }
 
 form label {
-    margin-top: 10px;
+    margin: 0px;
 }
 
 form input, form textarea {
-    padding: 10px;
-    margin-top: 5px;
+    padding: 0px;
+    margin: 0%;
 }
 
 button {
-    margin-top: 10px;
+
     padding: 10px;
-    background-color: #333;
+    
+    background-color: #28a745; 
+    margin-top: 10px;
     color: white;
-    border: none;
+    border: none; 
+    border-bottom: solid 10px #f8f8f8;
+    border-radius: 5px;
     cursor: pointer;
 }
 
