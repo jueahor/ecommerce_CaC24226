@@ -5,93 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Tienda Web</title>
 </head>
 <body>
-
 <header>
-    <!-- <section class="js-adbar section-adbar">
-        <div class="js-swiper-adbar swiper-container text-center swiper-container-initialized swiper-container-horizontal">
-            <div class="swiper-wrapper align-items-center" style="transition: all; transform: translate3d(-2074px, 0px, 0px);"><div class="swiper-slide slide-container px-4 swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" style="width: 1037px;">
-                                                            <a href="https://www.instagram.com/tabla.ba/">
-                                                        PARA COMPRAS AL INTERIOR, HACÉ TU PEDIDO POR WHATSAPP
-                                                            </a>
-                                                    </div>
-                                                                                                    <div class="swiper-slide slide-container px-4 swiper-slide-prev" data-swiper-slide-index="0" style="width: 1037px;">
-                                                            <a href="https://www.instagram.com/tabla.ba/">
-                                                        3 CUOTAS SIN INTERÉS O 10% OFF EN EFECTIVO EN LOCALES
-                                                            </a>
-                                                    </div>
-                                                                                                                        <div class="swiper-slide slide-container px-4 swiper-slide-active" data-swiper-slide-index="1" style="width: 1037px;">
-                                                            <a href="https://www.instagram.com/tabla.ba/">
-                                                        ENVIOS A CABA, GBA Y PBA
-                                                            </a>
-                                                    </div>
-                                                                                                                        <div class="swiper-slide slide-container px-4 swiper-slide-next" data-swiper-slide-index="2" style="width: 1037px;">
-                                                            <a href="https://www.instagram.com/tabla.ba/">
-                                                        PARA COMPRAS AL INTERIOR, HACÉ TU PEDIDO POR WHATSAPP
-                                                            </a>
-                                                    </div>
-                                                <div class="swiper-slide slide-container px-4 swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 1037px;">
-                                                            <a href="https://www.instagram.com/tabla.ba/">
-                                                        3 CUOTAS SIN INTERÉS O 10% OFF EN EFECTIVO EN LOCALES
-                                                            </a>
-                                                    </div></div>
-                            <div class="js-swiper-adbar-prev swiper-button-absolute swiper-button-prev svg-icon-text"><svg class="icon-inline icon-sm" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M241,451.75l-18.11,18.1L9.07,256,222.92,42.15,241,60.25,45.28,256Z"></path></svg></div>
-                <div class="js-swiper-adbar-next swiper-button-absolute swiper-button-next svg-icon-text ml-2"><svg class="icon-inline icon-sm" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M210.72,256,15,60.25l18.11-18.1L246.93,256,33.08,469.85,15,451.75Z"></path></svg></div>
-                    </div>
-    </section> -->
+    <div>
+
+        <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <a href="https://www.instagram.com/tabla.ba/" class="text-white">PARA COMPRAS AL INTERIOR, HACÉ TU PEDIDO POR WHATSAPP</a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.instagram.com/tabla.ba/" class="text-white">3 CUOTAS SIN INTERÉS O 10% OFF EN EFECTIVO EN LOCALES</a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.instagram.com/tabla.ba/" class="text-white">ENVIOS A CABA, GBA Y PBA</a>
+            </div>
+        </div>
+        <button class="carousel-control-prev custom-prev" href="#carouselExample" role="button" data-slide="prev">
+            <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                <path d="M45.25,256l195.72,195.75-18.11,18.1L9.07,256,222.93,42.15,240.05,60.25Z"></path>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next custom-next" href="#carouselExample" role="button" data-slide="next">
+            <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                <path d="M210.72,256,15,60.25l18.11-18.1L246.93,256,33.08,469.85,15,451.75Z"></path>
+            </svg>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+</div>
     <nav style="display: flex; justify-content: space-between; align-items: center;">
-        <h1>Tienda Online</h1>
-        <ul style="list-style-type: none; padding: 0; margin: 0;">
-            <li style="display: inline; margin-right: 20px;"><a href="#home">Inicio</a></li>
-            <li style="display: inline; margin-right: 20px;"><a href="#productos">Productos</a></li>
-            <li style="display: inline;"><a href="#contacto">Contacto</a></li>
-        </ul>
+        <div>
+
+            <h1>Tienda Online</h1>
+        </div>
+        <div style=" text-align: end;">
+
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li style="display: inline; margin-right: 20px;"><a href="#home">Inicio</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="#productos">Productos</a></li>
+                <li style="display: inline;"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
     </nav>
     
 </header>
 
 <main>
     <section id="productos">
-        <h2>Productos</h2>
+        <h2 class="subtitulo">Productos</h2>
         <div class="productos-grid">
             <div class="producto-card">
                 <img src="https://acdn.mitiendanube.com/stores/926/506/products/tabla00049r_1-e8ab5cef1943fe393416988494852574-240-0.webp" alt="Producto 1">
-                <h3>Producto 1</h3>
-                <p>Descripción breve del producto 1.</p>
+                <h3>Remera</h3>
+                <p>Remera scote en V blanca</p>
+                <div>
+                    <button>Agregar al carrito <span></span></button>
+                </div>
             </div>
             <div class="producto-card">
                 <img src="https://acdn.mitiendanube.com/stores/926/506/products/tabla00245r-ea4a5ad5287e0ac6b816989363016193-480-0.webp" alt="Producto 2">
-                <h3>Producto 2</h3>
-                <p>Descripción breve del producto 2.</p>
+                <h3>Polo Rayado</h3>
+                <p>Chomba Rayada</p>
+                <div>
+                    <button>Agregar al carrito <span></span></button>
+                </div>
             </div>
             <div class="producto-card">
                 <img src="https://acdn.mitiendanube.com/stores/926/506/products/tabla-fw23-01_-775-bf0958d62237eb8ecc17000575833989-480-0.webp" alt="Producto 3">
-                <h3>Producto 3</h3>
-                <p>Descripción breve del producto 3.</p>
+                <h3>Polo Clasico</h3>
+                <p>Chomba estilo clasico verde agua</p>
+                <div>
+                    <button>Agregar al carrito <span></span></button>
+                </div>
             </div>
             <div class="producto-card">
                 <img src="https://acdn.mitiendanube.com/stores/926/506/products/t0109-54b2a16f684d9863fc17147566305566-240-0.webp" alt="Producto 4">
-                <h3>Producto 4</h3>
-                <p>Descripción breve del producto 4.</p>
+                <h3>Camisa PIPA SLIM FIT</h3>
+                <p>Camisa a cuadrille</p>
+                <div>
+                    <button>Agregar al carrito <span></span></button>
+                </div>
             </div>
             <div class="producto-card">
                 <img src="https://acdn.mitiendanube.com/stores/926/506/products/tabla-fw23-01_-461-e4628253dcbc9ba81417000577991086-320-0.webp" alt="Producto 5">
-                <h3>Producto 5</h3>
-                <p>Descripción breve del producto 5.</p>
+                <h3>Polo Clasico</h3>
+                <p>Chomba estilo clasico colorada</p>
+                <div>
+                    <button>Agregar al carrito <span></span></button>
+                </div>
             </div>
             <div class="producto-card">
                 <img src="https://acdn.mitiendanube.com/stores/926/506/products/tabla00328r-9bd5068feea3f0913116989378763778-320-0.webp" alt="Producto 6">
-                <h3>Producto 6</h3>
-                <p>Descripción breve del producto 6.</p>
+                <h3>Polo rayada</h3>
+                <p>Chomba Rayada combinada</p>
+                <div>
+                    <button>Agregar al carrito <span></span></button>
+                </div>
+            </div>
+            <div class="producto-card">
+                <img src="https://acdn.mitiendanube.com/stores/926/506/products/tabla00328r-9bd5068feea3f0913116989378763778-320-0.webp" alt="Producto 6">
+                <h3>Polo rayada</h3>
+                <p>Chomba Rayada combinada</p>
+                <div>
+                    <button>Agregar al carrito <span></span></button>
+                </div>
+            </div>
+            <div class="producto-card">
+                <img src="https://acdn.mitiendanube.com/stores/926/506/products/tabla00328r-9bd5068feea3f0913116989378763778-320-0.webp" alt="Producto 6">
+                <h3>Polo rayada</h3>
+                <p>Chomba Rayada combinada</p>
+                <div>
+                    <button>Agregar al carrito <span></span></button>
+                </div>
             </div>
         </div>
     </section>
     
 
     <section id="reseñas">
-        <h2>Reseñas</h2>
+        <h2 class="subtitulo">Reseñas</h2>
         <div class="reseñas-grid">
             <div class="reseña-card">¡Me encantó!</div>
             <div class="reseña-card">Excelente calidad.</div>
@@ -100,7 +137,7 @@
     </section>
 
     <section id="contacto">
-        <h2>Contacto</h2>
+        <h2 class="subtitulo">Contacto</h2>
         <form action="https://formspree.io/f/{tu_form_id}" method="POST">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
@@ -108,7 +145,8 @@
             <input type="email" id="email" name="email" required>
             <label for="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" required></textarea>
-            <button type="submit">Enviar</button>
+            <button type="submit" style="padding: 10px; border-bottom: solid 10px #f8f8f8;
+;">Enviar</button>
         </form>
     </section>
 </main>
@@ -116,6 +154,10 @@
 <footer>
     <p>&copy; 2024 Tienda Online. Todos los derechos reservados.</p>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>
