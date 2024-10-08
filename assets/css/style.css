@@ -78,7 +78,7 @@ h2 {
 }
 
 .producto-card button {
-    background-color: #28a745; /* Color del botón */
+    background-color: #A5D6A7; /* Color del botón */
     color: white;
     border: none;
     border-radius: 5px;
@@ -90,7 +90,7 @@ h2 {
 }
 
 .producto-card button:hover {
-    background-color: #218838; /* Color del botón al pasar el mouse */
+    background-color: #4CAF50; /* Color del botón al pasar el mouse */
     transform: scale(1.05);
 }
 
@@ -182,7 +182,7 @@ button {
 
     padding: 10px;
     
-    background-color: #28a745; 
+    background-color: #A5D6A7; 
     margin-top: 10px;
     color: white;
     border: none; 
