@@ -165,23 +165,23 @@ header {
 form {
     display: flex;
     flex-direction: column;
-    max-width: 25%;
+    max-width: 25%; /* Ancho base */
     margin: 0 auto;
 }
 
 form label {
-    margin: 0px;
+    margin: 0;
 }
 
 form input, form textarea {
-    padding: 0px;
-    margin: 0%;
+    padding: 10px; /* Añadido para mejor apariencia */
+    margin: 5px 0; /* Margen entre los campos */
+    border: 1px solid #ccc; /* Borde estándar */
+    border-radius: 4px; /* Bordes redondeados */
 }
 
 button {
-
     padding: 10px;
-    
     background-color: #A5D6A7; 
     margin-top: 10px;
     color: white;
@@ -190,6 +190,41 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    form {
+        max-width: 80%; /* Aumenta el ancho en pantallas pequeñas */
+    }
+}
+
+/* Media Query para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    form {
+        max-width: 95%; /* Casi todo el ancho en pantallas muy pequeñas */
+    }
+    
+    button {
+        padding: 12px; /* Botón más grande en pantallas pequeñas */
+    }
+    /* Media Query para pantallas pequeñas */
+
+    
+    .colum-menu {
+        padding: 0; /* Sin padding */
+        margin: 0 ;/* Sin margen */
+        display: flex; /* Utiliza flexbox */
+        flex-direction: column; /* Coloca los elementos en columna */
+        align-items: flex-start; /* Alinea los elementos a la izquierda */
+    }
+
+    .colum-menu>li{
+        margin: 0 !important;
+    } 
+
+}
+
+
 
 footer {
     background-color: #333;
