@@ -82,6 +82,14 @@ h2 {
     margin: 10px 0 20px;
 }
 
+/* aplicando google font al parrafo del footer */
+#pfooter{
+    font-family: 'lato';
+}
+.small-text {
+    font-size: 0.8rem; /* Tamaño de letra pequeño */
+   }
+
 .producto-card button {
     background-color: #A5D6A7; /* Color del botón */
     color: white;
