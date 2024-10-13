@@ -325,5 +325,17 @@ iframe {
     height: 100%;
 }
 
-
+@media (min-width: 516px) and (max-width: 558px) {
+    .producto-card p, .producto-card h3{
+        max-width: 214.500px; /* Limita el ancho del párrafo a 214.500 píxeles */
+        overflow: hidden; /* Oculta el contenido que sobrepase el ancho */
+        white-space: nowrap; /* Evita el salto de línea */
+        text-overflow: ellipsis; /* Añade puntos suspensivos si el texto es más largo */
+    }
+}
+/* Explicación:
+max-width: 214.500px;: Establece el ancho máximo del párrafo.
+overflow: hidden;: Oculta cualquier contenido que sobrepase el ancho máximo.
+white-space: nowrap;: Evita que el texto se divida en múltiples líneas.
+text-overflow: ellipsis;: Muestra puntos suspensivos ("...") si el contenido es demasiado largo. */
 
